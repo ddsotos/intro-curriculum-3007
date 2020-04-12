@@ -1,4 +1,11 @@
 'use strict';
+/**
+* 17で割り切れるかを判定
+* @return boolean
+*/
 
-module.exports = {
+function isMultipleOfSeventeen(number){
+    return number % 17 === 0;
 }
+module.exports = {
+isMultipleOfSeventeen };
